@@ -1,0 +1,160 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+.game-title {
+    margin-top: 20px;
+}
+
+.top-img {
+    padding-top: 10px;
+    margin-top: -5px;
+    height: 80vh;
+    padding-bottom: 10px;
+}
+
+.first-page-text-and-options {
+    background-color: aqua;
+    text-align: center;
+    margin-top: -32px;
+    padding-bottom: 50px;
+}
+
+.want-to-play {
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.choose-to-play-or-not {
+    padding-bottom: 30px;
+}
+
+.choose-to-play-or-not button {
+    font-size: 20px;
+    gap: 40px;
+    padding: 10px 30px;
+    border-radius: 15% 15% 15% 15%;
+    cursor: pointer;
+}
+
+.choose-to-play-or-not button:hover {
+    background-color: red;
+}
+
+.yes-btn {
+    margin-right: 30px;
+}
+
+.no-game-h3,
+.no-game-h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-game-h3 {
+    padding-top: 350px;
+}
+
+#no-game-header {
+    background-color: rgb(199, 175, 42);
+    padding: 20px;
+    margin-bottom: -15px;
+}
+
+#no-game-header a {
+    top: 0;
+    position: sticky;
+    border-radius: 30%;
+    background-color: aqua;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+#no-game {
+    height: 100vh;
+    background-color: aqua;
+}
+
+#game-header,
+#main-game-items {
+    text-align: center;
+}
+
+.board {
+    display: flex;
+    gap: 180px;
+}
+
+.score-boards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score.computer {
+    padding-left: 10px;
+}
+
+.score.user {
+    padding-right: 10px;
+}
+
+.game-options {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.choose-your-weapon {
+    padding-top: 80px;
+}
+
+.game-title {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.message {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+/*Game over*/
+
+.replay-btn {
+    display: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: white;
+    border-radius: 15% 15% 15% 15%;
+    background-color: turquoise;
+}
+
+#game-over {
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
