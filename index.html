@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <section id="game" class="game open">
+        <header id="game-header">
+            <div class="game-title">
+                <h1>ROCK PAPER SCISSORS</h1>
+            </div>
+            <div class="game-sub-text">
+                <p>In this game, the first person to score 5 wins</p>
+            </div>
+        </header>
+        <main id="main-game-items">
+
+            <div class="choose-your-weapon">
+                <h3>Choose your weapon! </h3>
+            </div>
+
+            <div class="score-boards">
+                <div class="board user">
+                    <h3 class="name user">User</h3>
+                    <h3 class="score user"> 0</h3>
+                </div>
+                <div class="board computer">
+                    <h3 class="score computer"> 0</h3>
+                    <h3 class="name computer">Computer</h3>
+                </div>
+            </div>
+
+
+            <div class="game-options">
+                <button class="rock"><img src="./img/rock.png" alt="rock image" width="150px" height="auto"></button>
+                <button class="paper"><img src="./img/sheet.png" alt="paper image" width="150px" height="auto"></button>
+                <button class="scissors"><img src="./img/scissors.png" alt="scissors image" width="150px" height="auto"></button>
+            </div>
+            <p class="message"></p>
+        </main>
+    </section>
+    <section id="game-over">
+        <p class="final-message"></p>
+        <button class="replay-btn  show">Replay</button>
+    </section>
+    <section id="wont-play">
+
+    </section>
+
+    <script src="../rock-paper.js"></script>
+</body>
+
+</html>
